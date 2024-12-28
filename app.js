@@ -5,7 +5,7 @@ const prev = document.getElementById('prev')
 const circles = document.querySelectorAll('.circle')
 let title = document.getElementById('title')
 let currentActive = 1;
-const titles = ["Step 1", "Step 2", "Step 3", "Step 4"]; // Define titles for each step
+const titles = ["frist step", "second step", "third step", "last step"]; // Define titles for each step
 
 next.addEventListener('click', () =>{
     currentActive++
